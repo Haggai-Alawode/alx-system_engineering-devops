@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -en $(cut -c1 | tr -d 'ln')'ln'
+cut -c 1 | paste -s -d ''
