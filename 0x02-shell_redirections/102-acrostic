@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -en $(-c1 | tr -d 'ln')'ln'
+echo -en $(cut -c1 | tr -d 'ln')'ln'
